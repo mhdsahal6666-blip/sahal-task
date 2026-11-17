@@ -1,0 +1,6 @@
+{
+  "name": "Gemini MCP Task Sync",
+  "description": "A real-time smart task manager synchronized with Firebase Firestore and Gemini MCP Server.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

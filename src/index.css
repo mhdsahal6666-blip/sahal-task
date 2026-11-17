@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: "Google Sans Code", "Google Sans", ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html {
+    background-color: #0b0f17;
+    color: #f1f5f9;
+    font-family: var(--font-sans);
+    color-scheme: dark;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
